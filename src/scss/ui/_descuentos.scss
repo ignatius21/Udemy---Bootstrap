@@ -1,0 +1,14 @@
+@use '../custom' as *;
+
+
+.descuentos{
+    .texto-descuentos{
+        @include media-breakpoint-up(md){
+            margin-bottom: -2rem;
+        }
+    }
+    .buscar{
+        border-radius: 0;
+
+    }
+}
